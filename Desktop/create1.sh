@@ -5,7 +5,7 @@ aws_region="us-east-2"
 vpc_block="16"
 subnet_block="20"
 vpc_name="PE_RM"
-echo "Enter the region code you want to enter your vpc:"
+echo "Enter the region code(us-east-2) you want to enter your vpc:"
 read aws_region
 echo "Enter the CIDR BLOCK NUMBER for VPC:"
 read vpc_block
